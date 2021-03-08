@@ -1,0 +1,66 @@
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+body {
+    background-image: url('./fundo.jpg');
+    background-position: 0%;
+}
+
+.max-width {
+    max-width: 500px;
+    width: 100%;
+    padding: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;    
+    background-color: #FFF;
+    box-shadow: 0 0 5px #FFF;
+    text-align: center;
+}
+
+#counter {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Segoe UI';
+    font-size: 1.1em;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: #a1c0d1;
+}
+
+button:active {
+    background-color: #111;
+}
+
+.green {
+    background-color: #b2d1a1;
+}
+
+.yellow {
+    background-color: #d1cba1;
+}
+
+.red {
+    background-color: #d1a1a1;
+}
